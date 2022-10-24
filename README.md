@@ -1,6 +1,6 @@
 # SIEM-SPLUNK-AWS-
 
- Set up a Splunk server in a secure AWS ec2(Amazon Elastic Compute Cloud).
+<h1> Set up a Splunk server in secure AWS ec2(Amazon Elastic Compute Cloud) by setting role,security group(Firewall),ssh rules, and securing  my privite key.<h1>
  
  <h2> ec2 configuration </h2>
 
@@ -9,7 +9,7 @@
 - key pair
   -  Key pair type = rsa
   -  privite key file format  pem for open shh use ( use to connect from my linux teminar) 
-- networking-  
+- networking  
   -  Create security group(Firewall)  allow  shh traffic from only my public IP and port 22 for ssh.
   -  Only allow the port nunber splunk enviriment is going to run 
   - assing an assign an elastic ip so you aways have the same public ip if you shut down your ec2 (is better to have a dynamic ip address for security over comfort)
@@ -28,7 +28,7 @@
   
  <img src="https://i.imgur.com/aR7SMmb.png" height="40%" width="44%" alt=/> 
  
-  <h2>Installing SPLUNK in a ec2</h2>
+  <h2>Installing and configuring SPLUNK in a ec2</h2>
   
 - You need to log in to your SPLUNK account and select the command line option to download. copy the Linux command and paste it into your terminal.
 
@@ -44,28 +44,5 @@ Them I went to my Splunk address web server the is going to be HTTP://(your ec2 
     - ./splunk enable boot-start
     - systemctl enable splunk
     - sysmtemctl start splunk
-
-
-
-
-
-
-
-
- 
- 
- 
-  
-  
-  
-  
-
-
-
-
-
-
-
-
 
 
