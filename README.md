@@ -39,6 +39,12 @@
 
 Them I went to my Splunk address web server the is going to be HTTP://(your ec2 public IP):(your assing port 
   <img src="https://i.imgur.com/JdJgW33.png" height="40%" width="44%" alt=/> 
+  
+  - to make my splunk web server to start at boot you got to type this command in your bin directory 
+    - ./splunk enable boot-start
+    - systemctl enable splunk
+    - sysmtemctl start splunk
+
 
 
 
