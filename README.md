@@ -1,6 +1,6 @@
 # SIEM-SPLUNK-AWS-
 
-<h1> Set up a Splunk server in secure AWS ec2(Amazon Elastic Compute Cloud) by setting role,security group(Firewall),ssh rules, and securing  my privite key.<h1>
+<h3> Set up a Splunk server in secure AWS ec2(Amazon Elastic Compute Cloud) by setting role,security group(Firewall),ssh rules, and securing  my privite key.<h3>
  
  <h2> ec2 configuration </h2>
 
