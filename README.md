@@ -34,7 +34,7 @@
 
   <img src="https://i.imgur.com/2Gk6kNW.png" height="40%" width="44%" alt=/> 
 
-- After downloading your file tar you download the file you use = Tar -xvzf (name of your download file)
+- After downloading your file tar you download the file you use = tar -xvzf (name of your download file)
 - Next you got to start Splunk from your bin directory using (./splunk start) and set username and password.
 
 Then I went to my Splunk address web server the is going to be HTTP://(your ec2 public IP):(your assing port).
