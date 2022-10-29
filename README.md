@@ -16,7 +16,7 @@
   
 - created an IAM role and give users enough Permission to use my ec2 Splunk server - following The principle of least privilege.
   
- <h2> Conneting to yor ec2 </h2>
+ <h2> Conneting to your ec2 </h2>
   
   what you need to before trying to connect to your ec2 in the shell enviment.
   
