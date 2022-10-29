@@ -18,9 +18,7 @@
   
  <h2> Conneting to your ec2 </h2>
   
-  what you need to before trying to connect to your ec2 in the shell enviment.
-  
-  - change permissions in you in your ec2 pair key using chmod because your key pair is unprotected  and it will not allow you to ssh into your ec2 with a weak permission. 
+ - change permissions in you in your ec2 pair key using chmod because your key pair is unprotected  and it will not allow you to ssh into your ec2 with a weak permission. 
  
   <img src="https://i.imgur.com/vQUYDFL.png" height="40%" width="44%" alt=/> 
   
