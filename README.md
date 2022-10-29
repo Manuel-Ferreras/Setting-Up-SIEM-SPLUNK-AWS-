@@ -58,6 +58,8 @@ Then I went to my Splunk address web server the is going to be HTTP://(your ec2 
  In Splunk got manage action >slack> Setup Slack Alerts >paste your webhook URL and save.
  - Can be used this be used in  sections Trigger Actions
 
+<img src="https://i.imgur.com/PVOCOul.png" height="40%" width="44%" alt=/>
+
 
  
 
