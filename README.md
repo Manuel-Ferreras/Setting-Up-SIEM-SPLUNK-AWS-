@@ -44,4 +44,20 @@ Then I went to my Splunk address web server the is going to be HTTP://(your ec2 
     - systemctl enable splunk
     - sysmtemctl start splunk
 
+ <h2> Slack Notification Alert </h2> 
+ 
+ Integrated Slack Notification Alert to get notified of my Splunk alerts if conditions a met in my slack channel.
+
+ <img src="https://i.imgur.com/O8PN9hd.png" height="40%" width="44%" alt=/>
+ 
+ - Set up a dummy slack instance.
+ - Install Slack Notification Alert Splunk plugging.
+ - Install the incoming webhook in your slack instance.
+     -  Added to your desired channel.
+     -  Copied the URL of your webhook. 
+ In Splunk got manage action >slack> Setup Slack Alerts >paste your webhook URL and save.
+ - Can be used this be used in  sections Trigger Actions
+
+
+ 
 
