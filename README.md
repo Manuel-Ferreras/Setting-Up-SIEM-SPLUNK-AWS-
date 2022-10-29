@@ -12,7 +12,7 @@
 - networking  
   -  Create security group(Firewall)  allow  shh traffic from only my public IP and port 22 for ssh.
   -  Only allow the port number splunk enviriment is going to run.
-  - assing an assign an elastic IP so you aways have the same public IP if you shut down your ec2 (is better to have a dynamic IP address for security over comfort).
+  -  assign an elastic IP so you aways have the same public IP if you shut down your ec2 (is better to have a dynamic IP address for security over comfort).
   
 - created an IAM role and give users enough Permission to use my ec2 Splunk server - following The principle of least privilege.
   
