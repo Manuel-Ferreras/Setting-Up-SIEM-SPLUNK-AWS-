@@ -68,7 +68,7 @@ set Trigger Conditions to numbers of results if condition is greater than 10
  
  <img src= "https://imgur.com/tObcU0q.png" height="40%" width="44%" alt=/>
  
-set the alert to notify me by Slack.
+set the alert to notify me via Slack.
 
 <img src= "https://imgur.com/obcPkwO.png" height="40%" width="44%" alt=/>
 
