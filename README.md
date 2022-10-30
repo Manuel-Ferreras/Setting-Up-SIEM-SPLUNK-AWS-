@@ -46,7 +46,7 @@ Then I went to my Splunk address web server the is going to be HTTP://(your ec2 
 
  <h2> Slack Notification Alert </h2> 
  
- Integrated Slack Notification Alert to get notified of my Splunk alerts if conditions a met in my slack channel.
+ Integrated Slack Notification Alert to get notified of my Splunk alerts if conditions are met.
 
  <img src="https://i.imgur.com/O8PN9hd.png" height="40%" width="44%" alt=/>
  
@@ -64,13 +64,13 @@ Then I went to my Splunk address web server the is going to be HTTP://(your ec2 
 
  <img src="https://imgur.com/vVKQpBb.png" height="40%" width="44%" alt=/>
 
-set Trigger Conditions to numbers of results if condition is greater than 10 
+Set Trigger Conditions to numbers of results if condition is greater than 10 .
  
- <img src= "https://imgur.com/tObcU0q.png" height="40%" width="44%" alt=/>
+ <img src= "https://imgur.com/tObcU0q.png" height="20%" width="34%" alt=/>
  
-set the alert to notify me via Slack.
+Set the alert to notify me via Slack.
 
-<img src= "https://imgur.com/obcPkwO.png" height="40%" width="44%" alt=/>
+<img src= "https://imgur.com/obcPkwO.png" height="20%" width="34%" alt=/>
 
  
 
