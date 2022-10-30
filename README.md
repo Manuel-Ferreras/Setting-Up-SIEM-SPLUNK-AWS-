@@ -1,6 +1,6 @@
 # SIEM-SPLUNK-AWS-
 
-<h3> Set up a Splunk server in secure AWS ec2(Amazon Elastic Compute Cloud) by setting role,security group(Firewall),ssh rules, and securing  my privite key.<h3>
+<h3> Set up a Splunk server in secure AWS ec2(Amazon Elastic Compute Cloud) by setting role, security group(Firewall), ssh rules, securing my private key, created security alerts and reports to find Anomalies Integrated slack to get notified went the conditions are met. <h3>
  
  <h2> ec2 configuration </h2>
 
@@ -60,6 +60,17 @@ Then I went to my Splunk address web server the is going to be HTTP://(your ec2 
 
 <img src="https://i.imgur.com/PVOCOul.png" height="40%" width="44%" alt=/>
 
+<h2>Created an alert that triggers if there is an unusually high number of failed login attempts.</h2>
+
+ <img src="https://imgur.com/vVKQpBb.png" height="40%" width="44%" alt=/>
+
+set Trigger Conditions to numbers of results if condition is greater than 10 
+ 
+ <img src= "https://imgur.com/tObcU0q.png" height="40%" width="44%" alt=/>
+ 
+set the alert to notify me by Slack.
+
+<img src= "https://imgur.com/obcPkwO.png" height="40%" width="44%" alt=/>
 
  
 
