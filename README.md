@@ -62,7 +62,7 @@ Then I went to my Splunk address web server the is going to be HTTP://(your ec2 
 
 <h2>Created an alert that triggers if there is an unusually high number of failed login attempts.</h2>
 
- <img src="https://imgur.com/vVKQpBb.png" height="40%" width="44%" alt=/>
+ <img src="https://imgur.com/8wqjIpe.png" height="40%" width="44%" alt=/>
 
 Set Trigger Conditions to numbers of results if condition is greater than 10 .
  
