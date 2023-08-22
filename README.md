@@ -8,15 +8,15 @@
 - Instance type t2.micro free tier eligible
 - key pair
   -  Key pair type = rsa
-  -  privite key file format  pem for open shh use ( use to connect from my linux teminar) 
+  -  private key file format  pem for open shh use ( use to connect from my Linux terminal) 
 - networking  
-  -  Create security group(Firewall)  allow  shh traffic from only my public IP and port 22 for ssh.
-  -  Only allow the port number splunk enviriment is going to run.
-  -  assign an elastic IP so you aways have the same public IP if you shut down your ec2 (is better to have a dynamic IP address for security over comfort).
+  -  Create a security group(Firewall)  to allow  shh traffic from only my public IP and port 22 for ssh.
+  -  Only allow the port number Splunk environment is going to run.
+  -  assign an elastic IP so you always have the same public IP if you shut down your ec2 (is better to have a dynamic IP address for security over comfort).
   
-- created an IAM role and give users enough Permission to use my ec2 Splunk server - following The principle of least privilege.
+- created an IAM role and gave users enough Permission to use my ec2 Splunk server - following The principle of least privilege.
   
- <h2> Conneting to your ec2 </h2>
+ <h2> Connecting to your ec2 </h2>
   
  - change permissions in you in your ec2 pair key using chmod because your key pair is unprotected  and it will not allow you to ssh into your ec2 with a weak permission. 
  
@@ -33,9 +33,9 @@
   <img src="https://i.imgur.com/2Gk6kNW.png" height="40%" width="44%" alt=/> 
 
 - After downloading your file tar you download the file you use = tar -xvzf (name of your download file)
-- Next you got to start Splunk from your bin directory using (./splunk start) and set username and password.
+- Next, you got to start Splunk from your bin directory using (./splunk start) and set your username and password.
 
-Then I went to my Splunk address web server the is going to be HTTP://(your ec2 public IP):(your assing port).
+Then I went to my Splunk address web server the is going to be HTTP://(your ec2 public IP):(your assign port).
   
   <img src="https://i.imgur.com/JdJgW33.png" height="40%" width="44%" alt=/> 
   
@@ -52,10 +52,10 @@ Then I went to my Splunk address web server the is going to be HTTP://(your ec2 
  
  - Set up a dummy slack instance.
  - Install Slack Notification Alert Splunk plugging.
- - Install the incoming webhook in your slack instance.
+ - Install the incoming webhook in your Slack instance.
      -  Added to your desired channel.
      -  Copied the URL of your webhook. 
- In Splunk got manage action >slack> Setup Slack Alerts >paste your webhook URL and save.
+ In Splunk get manage action >slack> Setup Slack Alerts >paste your webhook URL and save.
  - Can be used this be used in  sections Trigger Actions
 
 <img src="https://i.imgur.com/PVOCOul.png" height="40%" width="44%" alt=/>
@@ -64,7 +64,7 @@ Then I went to my Splunk address web server the is going to be HTTP://(your ec2 
 
  <img src="https://imgur.com/8wqjIpe.png" height="40%" width="44%" alt=/>
 
-Set Trigger Conditions to numbers of results if condition is greater than 10 .
+Set Trigger Conditions to the number of results if the condition is greater than 10.
  
  <img src= "https://imgur.com/tObcU0q.png" height="20%" width="34%" alt=/>
  
